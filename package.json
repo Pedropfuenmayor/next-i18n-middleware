@@ -1,6 +1,6 @@
 {
   "name": "next-i18n-middleware",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Simple i18n middleware for Next.js",
   "author": "Pedro Fuenmayor",
   "license": "MIT",
