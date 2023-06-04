@@ -1,1 +1,1 @@
-export { default as middleware } from "./middleware/middleware";
+export { default as createMiddleware } from "./middleware/middleware";
