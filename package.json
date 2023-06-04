@@ -1,0 +1,45 @@
+{
+  "name": "next-i18n-middleware",
+  "version": "0.0.1",
+  "description": "Simple i18n middleware for Next.js",
+  "author": "Pedro Fuenmayor",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/<YOUR_USER_NAME>/my-ts-lib.git"
+  },
+  "bugs": {
+    "url": "https://github.com/<YOUR_USER_NAME>/my-ts-lib/issues"
+  },
+  "keywords": ["some", "keywords", "to", "describe", "the", "package"],
+  "type": "module",
+  "main": "./dist/next-i18n-middleware.umd.cjs",
+  "module": "./dist/next-i18n-middleware.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/next-i18n-middleware.js",
+      "require": "./dist/next-i18n-middleware.umd.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/accept-language-parser": "^1.5.3",
+    "@types/node": "^20.2.5",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.9",
+    "vite-plugin-dts": "^2.3.0"
+  },
+  "dependencies": {
+    "@formatjs/intl-localematcher": "^0.2.32",
+    "accept-language-parser": "^1.5.0",
+    "next": "^13.4.4"
+  }
+}
